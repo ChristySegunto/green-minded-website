@@ -110,6 +110,7 @@ body{
     font-size: 30px;
     font-weight: 400;
     margin-bottom: 10px;
+    letter-spacing: 10px;
 }
 
 .about .column-right .info{
