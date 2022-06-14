@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600&family=Montserrat:wght@300;400;500&family=Roboto:wght@100;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Maven Pro', 'Roboto', 'Montserrat';
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    min-height: 100vh;
+    background: #ffffff;
+}
+
+
+/* specializing in section */
+
+.specializing-in{
+    padding-bottom: 130px;
+}
+.heading{
+    margin-top: 170px;
+}
+
+.heading h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 70px;
+}
+
+.row{
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 30px;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+}
+
+.column img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.containerTab {
+    padding: 20px;
+    color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 400px;
+    text-align: center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.closebtn {
+    float: right;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.containerTab h1{
+    font-size: 70px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.containerTab h1 span{
+    color: #FF0000;
+}
+
+.containerTab h1 .softdev{
+    color: #000000;
+}
+
+.containerTab p{    
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.containerTab h6{    
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.containerTab h6 span{
+    color: #FF0000;
+}
+
+.containerTab h6 .speak{
+    color: #000000;
+}
+

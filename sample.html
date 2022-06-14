@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Group 2</title>
+        <link rel="stylesheet" type="text/css" href="samplestyle.css">
+    </head>
+
+<body>
+
+    <div class="specializing-in">
+        <div class="heading">
+            <h1>SPECIALIZING IN</h1>
+        </div>
+    
+        <div class="row">
+            <div class="column" onclick="openTab('b2');" style="background:#C23331;">
+                <img src="images/softdevlogo.png" alt="">
+            </div>
+            <div class="column" onclick="openTab('b3');" style="background:#3B3530;">
+                <img src="images/designinglogo.png" alt="">
+            </div>
+        </div>
+
+
+
+        <div id="b2" class="containerTab" style="display:none;background:#C23331">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <h1>SOFTWARE <span class="softdev">DEVELOPING</span></h1>
+            <p>Software Developing makes me feel like a superhuman that can develop almost everything. Whenever I accomplish a program, it makes me feel great and proud.</p>
+
+            <h6>I<span class="speak"> SPEAK </span>IN:</h6>
+            <p class="language">Visual Basic.NET, Java, C, C++</p>
+        </div>
+
+        <div id="b3" class="containerTab" style="display:none;background:#3B3530">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <h1>DESIGNING</h1>
+            <p>Simple content structure, minimalist patterns, and intelligent interactions are all things I appreciate.</p>
+
+            <h6>STUFFS I LIKE TO<span> DESIGN:</span></h6>
+            <p class="language">Website, Logo, Applications, UX, UI</p>
+        </div>
+
+
+    </div>
+
+
+    <script>
+        function openTab(tabName) {
+            var i, x;
+            x = document.getElementsByClassName("containerTab");
+            for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+
+        document.getElementById(tabName).style.display = "block";
+        }
+
+    </script>
+
+</body>

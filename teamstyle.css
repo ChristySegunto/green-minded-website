@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600&family=Montserrat:wght@300;400;500&family=Roboto:wght@100;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Maven Pro', 'Roboto', 'Montserrat';
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    min-height: 100vh;
+    background: #000000;
+}
+
+
+
+/* for the navbar */
+.navbar{
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    padding: 30px 70px;
+}
+
+
+
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a{
+    color: #FF0000;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.navbar .logo a span{
+    color: rgb(255, 255, 255);
+}
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a{
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 30px;
+    padding: 6px 20px;
+    border-radius: 10px;
+}
+
+.navbar .menu li a:hover{
+    background: #FF0000;
+    color: white;
+}
+
+.navbar .menu li a#active{
+    background: #FF0000;
+    color: white;
+}
+
+
+
+/* for the team */
+
+.team{
+    padding-top: 200px;
+}
+
+.team h2{
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 100px;
+    text-align: center;
+    padding-bottom: 80px;
+
+}
+
+.team h2 span{
+    color: #FF0000;
+    font-family: 'Montserrat';
+}
+
+.team-row{
+    /* margin-top: 20px; */
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    
+}
+
+.team-column{
+    /* margin: 30px;
+    margin-bottom: 10px; */
+    /* width: 30%; */
+    /* background-color: white;
+    color: #000000; */
+    padding-bottom: 30px;
+    padding-right: 30px;
+}
+
+.team-column a{
+    background-color: white;
+    color: #000000;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    cursor: pointer;
+    width: 400px;
+    border-radius: 25px;
+    height: 50px;
+    text-align: center;
+    padding-top: 8px;
+    font-family: 'Maven Pro';
+}
+
+.team-column a:hover{
+    background-color: #FF0000;
+    color: white;
+}
+
